@@ -1444,6 +1444,9 @@ form label {
     border-radius: 0.5rem;
     animation: pulse 1.5s infinite;
 }
+.skeleton-card:nth-child(n+6) {
+    display: none;
+}
 
 .event-section-btn {
     margin-top: 3rem;
