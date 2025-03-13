@@ -185,6 +185,47 @@
 		</div>
 	</div>
 
+	<!-- Upcoming Events Section -->
+	<div class="gtco-section" id="gtco-events">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>Upcoming Forró Events</h2>
+					<p>Join our next dance gatherings and cultural experiences</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="events-wrapper">
+						<div class="filora-plugin-container">
+							<div class="skeleton-loader" id="events-skeleton">
+								<div class="skeleton-card"></div>
+								<div class="skeleton-card"></div>
+								<div class="skeleton-card"></div>
+							</div>
+							<script src="https://service.filora.eu/assets/plugin/iframeResizer.min.js"></script>
+							<iframe id="iframe_928ded74-70e3-4a1c-992f-917c1957194d" 
+									src="https://service.filora.eu/plugin/events?style=card&limit=6&cardSize=large&backgroundColor=f8f9fa&cardColor=ffffff&textColor=212529&borderRadius=1rem&filter_host=eef98bc5-ce60-4fbc-b25a-97e862c3493e&filter_domain=forr%C3%B3" 
+									width="100%" 
+									frameBorder="0"
+									onload="document.getElementById('events-skeleton').classList.add('hidden')">
+							</iframe>
+							<script>
+								iFrameResize({ log: false }, "#iframe_928ded74-70e3-4a1c-992f-917c1957194d")
+							</script>
+						</div>
+					</div>
+					<div class="text-center event-section-btn">
+						<a href="#" class="btn btn-primary">
+							View All Events
+							<i class="icon-calendar"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div id="gtco-counter" class="gtco-bg gtco-cover gtco-counter" style="background-image:url(images/DSC_0275.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
