@@ -109,14 +109,20 @@ h1, h2, h3, h4, h5, h6, figure {
   .gtco-nav {
     padding: 12px 0 !important;
   }
+  .gtco-nav .row {
+    min-height: 50px;
+    align-items: center;
+  }
   .gtco-nav #gtco-logo {
     max-width: 100px;
     margin-top: 0;
-    padding: 0 0 2px 0;
-    transform: translateY(2px);
+    padding: 0;
+    transform: none;
   }
   .gtco-nav-toggle {
-    top: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -1px;
   }
 }
 .gtco-nav #gtco-logo {
