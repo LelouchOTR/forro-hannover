@@ -120,9 +120,10 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: none;
   }
   .gtco-nav-toggle {
-    top: 15px;
-    transform: none;
-    margin-top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    margin-top: -1px;
   }
 }
 .gtco-nav #gtco-logo {
