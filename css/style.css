@@ -96,19 +96,27 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   top: 0;
   margin: 0;
-  padding: 0;
   width: 100%;
-  padding: 20px 0;
+  padding: 15px 0;
   z-index: 1001;
+}
+.gtco-nav .row {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
-    padding: 10px 0;
+    padding: 12px 0 !important;
   }
   .gtco-nav #gtco-logo {
     max-width: 100px;
     margin-top: 0;
-    padding-top: 2px;
+    padding: 0 0 2px 0;
+    transform: translateY(2px);
+  }
+  .gtco-nav-toggle {
+    top: 18px;
   }
 }
 .gtco-nav #gtco-logo {
@@ -116,8 +124,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   display: inline-block;
   max-width: 60px;
-  margin-top: -10px;
+  margin-top: -6px;
   height: auto;
+  transform: translateY(3px);
 }
 
 #gtco-logo img {
@@ -147,12 +156,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav ul li a {
   font-size: 14px;
-  padding: 30px 10px;
+  padding: 24px 10px 22px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  line-height: 1.2;
 }
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
   color: white;
