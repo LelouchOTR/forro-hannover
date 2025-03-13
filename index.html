@@ -210,9 +210,9 @@
 									onload="document.getElementById('events-skeleton').classList.add('hidden')">
 							</iframe>
 							<script>
-								// Set end date to 2 months from now
+								// Set end date to 1 month from now
 								const endDate = new Date();
-								endDate.setMonth(endDate.getMonth() + 2);
+								endDate.setMonth(endDate.getMonth() + 1);
 								
 								const iframe = document.getElementById('iframe_928ded74-70e3-4a1c-992f-917c1957194d');
 								iframe.src = `https://service.filora.eu/plugin/events?style=card&limit=6&cardSize=large&backgroundColor=f8f9fa&cardColor=ffffff&textColor=212529&borderRadius=1rem&filter_host=eef98bc5-ce60-4fbc-b25a-97e862c3493e&filter_domain=forr%C3%B3&filter_start_date_lt=${encodeURIComponent(endDate.toISOString())}`;
