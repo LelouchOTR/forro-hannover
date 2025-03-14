@@ -115,8 +115,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media (max-width: 768px) {
   .gtco-nav ul {
-    background: rgba(0,0,0,0.95);
-    backdrop-filter: blur(12px);
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
     padding: 20px !important;
   }
 }
