@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 15px 0;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0);
 }
 
 .gtco-nav ul li.has-dropdown .dropdown {
