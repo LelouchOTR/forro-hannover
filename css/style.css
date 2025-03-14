@@ -1232,7 +1232,7 @@ form label {
 
 .btn-primary {
   background: #FFD23F;
-  color: #fff;
+  color: #000;
   border: 2px solid #FFD23F !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
