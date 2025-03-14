@@ -1280,6 +1280,10 @@ form label {
     background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
     border: none;
     color: white !important;
+    transition: transform 0.3s ease-in-out;
+}
+.btn-instagram:hover {
+    transform: translateY(-3px);
 }
 
 /* Add icon font support */
@@ -1470,6 +1474,13 @@ form label {
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.filora-plugin-container .event-card {
+    background: #FFD23F !important;
+    border-color: #D19400 !important;
+}
+.filora-plugin-container .event-date {
+    background: #D19400 !important;
 }
 
 .skeleton-loader {
