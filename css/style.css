@@ -1280,10 +1280,26 @@ form label {
     background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
     border: none;
     color: white !important;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.btn-instagram::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 .btn-instagram:hover {
-    background: linear-gradient(45deg, #3048B8, #4839C4, #6C2A9C, #A82A6D, #C22A5A, #E00D0D);
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+.btn-instagram:hover::after {
+    opacity: 1;
 }
 
 /* Add icon font support */
