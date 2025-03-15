@@ -138,11 +138,18 @@ h1, h2, h3, h4, h5, h6, figure {
   }
   /* Mobile spacing adjustments for Why Join community */
   .feature-left {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+  }
+  .feature-left .feature-copy {
+    text-align: center;
+    padding: 0 15px;
   }
   .feature-left .feature-copy p {
-    margin-bottom: 15px;
-    line-height: 1.6;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
   /* Consistent spacing for all feature items */
   .row.animate-box > .col-md-6 {
@@ -974,15 +981,16 @@ form label {
 
 #gtco-footer .gtco-footer-links {
   padding: 0;
-  margin: 0 0 20px 0;
-  float: left;
-  width: 100%;
+  margin: 0 auto 30px auto;
+  width: fit-content;
+  text-align: center;
 }
 #gtco-footer .gtco-footer-links li {
-  padding: 0;
-  margin: 0 0 15px 0;
+  padding: 0 15px;
+  margin: 0 0 20px 0;
   list-style: none;
-  line-height: 1;
+  line-height: 1.4;
+  display: inline-block;
 }
 #gtco-footer .gtco-footer-links li a {
   color: #000;
