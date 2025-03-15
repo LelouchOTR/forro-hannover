@@ -138,11 +138,11 @@ h1, h2, h3, h4, h5, h6, figure {
   }
   /* Mobile spacing adjustments for Why Join community */
   .feature-left {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .feature-left .feature-copy p {
-    margin-bottom: 12px;
-    line-height: 1.5;
+    margin-bottom: 15px;
+    line-height: 1.6;
   }
   /* Consistent spacing for all feature items */
   .row.animate-box > .col-md-6 {
