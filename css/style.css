@@ -137,20 +137,22 @@ h1, h2, h3, h4, h5, h6, figure {
     align-items: center;
   }
   /* Mobile spacing adjustments for Why Join community */
-  .feature-left .feature-copy {
+  .feature-left {
     margin-bottom: 20px;
   }
-  .feature-left .feature-copy:last-child {
+  .feature-left:last-of-type {
     margin-bottom: 0;
   }
   .feature-left .feature-copy p {
     margin-bottom: 12px;
     line-height: 1.5;
   }
-  .row.animate-box > .col-md-6:not(:last-child) {
-    margin-bottom: 30px;
+  /* Add consistent spacing between columns */
+  .row.animate-box > .col-md-6:first-child {
+    margin-bottom: 20px;
   }
-  .row.animate-box .col-md-6 .feature-left:last-child {
+  /* Remove last feature margin in each column */
+  .col-md-6 .feature-left:last-child .feature-copy {
     margin-bottom: 0;
   }
   .gtco-heading {
