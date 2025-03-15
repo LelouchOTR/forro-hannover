@@ -746,10 +746,12 @@ form label {
   margin-right: 5%;
   display: table;
   text-align: center;
+  padding-left: 15px; /* Added left padding for desktop */
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
     margin-right: 5%;
+    padding-left: 10px; /* Adjusted for mobile */
   }
 }
 .feature-left .icon i {
