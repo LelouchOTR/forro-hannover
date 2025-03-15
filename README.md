@@ -21,6 +21,8 @@ A vibrant community dedicated to preserving and sharing Brazilian Forró culture
 
 ## Credits
 
+Special thanks to [Filora](https://service.filora.eu) for their event management platform supporting the dance community!
+
 This project uses these resources:
 - [Bootstrap](http://getbootstrap.com/)
 - [jQuery](http://jquery.com/) 
