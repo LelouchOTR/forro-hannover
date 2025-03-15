@@ -1522,10 +1522,15 @@ form label {
 .filora-plugin-container {
     background: #fff;
     border-radius: 1rem;
-    overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    max-height: 1100px; /* Height for 5 cards + padding */
-    overflow-y: hidden;
+    max-height: 1400px; /* Increased height for better fade */
+    position: relative;
+    -webkit-mask-image: linear-gradient(to bottom, 
+        rgba(255,255,255,1) 85%, 
+        rgba(255,255,255,0) 100%);
+    mask-image: linear-gradient(to bottom, 
+        rgba(255,255,255,1) 85%, 
+        rgba(255,255,255,0) 100%);
 }
 .filora-plugin-container .event-card {
     background: #FFD23F !important;
