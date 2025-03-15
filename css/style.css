@@ -1524,6 +1524,8 @@ form label {
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-height: 1100px; /* Height for 5 cards + padding */
+    overflow-y: hidden;
 }
 .filora-plugin-container .event-card {
     background: #FFD23F !important;
@@ -1544,7 +1546,8 @@ form label {
     border-radius: 0.5rem;
     animation: pulse 1.5s infinite;
 }
-.skeleton-card:nth-child(n+6) {
+/* Hide all but first 5 cards in container */
+.filora-plugin-container > *:nth-child(n+6) {
     display: none;
 }
 

@@ -208,7 +208,11 @@
 								const iframe = document.getElementById('iframe_928ded74-70e3-4a1c-992f-917c1957194d');
 								iframe.src = `https://service.filora.eu/plugin/events?style=card&limit=5&pageLimit=5&cardSize=large&backgroundColor=f8f9fa&cardColor=ffffff&textColor=212529&borderRadius=1rem&filter_host=eef98bc5-ce60-4fbc-b25a-97e862c3493e&filter_domain=forr%C3%B3&filter_start_date_lt=${endDate.toISOString().split('T')[0]}`;
 								
-								iFrameResize({ log: false }, "#iframe_928ded74-70e3-4a1c-992f-917c1957194d");
+								iFrameResize({ 
+									log: false,
+									bodyBackground: 'transparent',
+									maxHeight: 1100 // Max height for 5 cards
+								}, "#iframe_928ded74-70e3-4a1c-992f-917c1957194d");
 							</script>
 						</div>
 					</div>
