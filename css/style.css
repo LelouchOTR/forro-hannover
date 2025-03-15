@@ -138,13 +138,16 @@ h1, h2, h3, h4, h5, h6, figure {
   }
   /* Mobile spacing adjustments */
   .feature-left .feature-copy {
-    margin-bottom: 20px;
-  }
-  .feature-left .feature-copy p {
     margin-bottom: 15px;
   }
+  .feature-left .feature-copy p {
+    margin-bottom: 10px;
+  }
   .gtco-heading {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
+  }
+  .gtco-section {
+    padding: 2em 0;
   }
   .gtco-tab-content .gtco-bg {
     margin-bottom: 30px;
