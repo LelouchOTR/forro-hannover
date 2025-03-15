@@ -137,12 +137,18 @@ h1, h2, h3, h4, h5, h6, figure {
     align-items: center;
   }
   /* Mobile spacing adjustments for Why Join community */
-  .feature-left .feature-copy:not(:last-child) {
+  .feature-left .feature-copy {
     margin-bottom: 20px;
+  }
+  .feature-left .feature-copy:last-child {
+    margin-bottom: 0;
   }
   .feature-left .feature-copy p {
     margin-bottom: 12px;
     line-height: 1.5;
+  }
+  .row.animate-box > .col-md-6 {
+    margin-bottom: 30px;
   }
   .gtco-heading {
     margin-bottom: 1em;
