@@ -1420,7 +1420,7 @@ form label {
 
 .btn-white {
   background: var(--primary-color);
-  color: #000;
+  color: #fff;
   border: 2px solid var(--primary-color);
 }
 .btn-white:hover, .btn-white:focus, .btn-white:active {
