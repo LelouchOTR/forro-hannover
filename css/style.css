@@ -136,7 +136,13 @@ h1, h2, h3, h4, h5, h6, figure {
     min-height: 50px;
     align-items: center;
   }
-  /* Add spacing between images and text in mobile view */
+  /* Mobile spacing adjustments */
+  .feature-left .feature-copy {
+    margin-bottom: 30px;
+  }
+  .gtco-heading {
+    margin-bottom: 2em;
+  }
   .gtco-tab-content .gtco-bg {
     margin-bottom: 30px;
   }
