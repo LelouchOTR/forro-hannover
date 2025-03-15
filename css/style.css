@@ -147,8 +147,11 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 12px;
     line-height: 1.5;
   }
-  .row.animate-box > .col-md-6 {
+  .row.animate-box > .col-md-6:not(:last-child) {
     margin-bottom: 30px;
+  }
+  .row.animate-box .col-md-6 .feature-left:last-child {
+    margin-bottom: 0;
   }
   .gtco-heading {
     margin-bottom: 1em;
