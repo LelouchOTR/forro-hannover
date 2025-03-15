@@ -1276,6 +1276,33 @@ form label {
     color: #fff;
 }
 
+/* WhatsApp gradient button */
+.btn-whatsapp {
+    background: linear-gradient(45deg, #25D366, #1EBEA5);
+    border: none;
+    color: white !important;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.btn-whatsapp::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.btn-whatsapp:hover {
+    background: linear-gradient(45deg, #25D366, #1EBEA5);
+}
+.btn-whatsapp:hover::after {
+    opacity: 1;
+}
+
 /* Style Instagram gradient */
 .btn-instagram {
     background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
