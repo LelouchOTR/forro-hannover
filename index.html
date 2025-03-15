@@ -123,9 +123,9 @@
 						<span class="icon">
 							<i class="icon-command"></i>
 						</span>
-						<h3>Live Music</h3>
-						<p>Regular dance evenings featuring vibrant live music and DJ sets that keep the energy high all night long.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<h3>Special Evenings</h3>
+						<p>Join our occasional live music nights and cultural events featuring authentic Forró bands. Check our schedule for upcoming performances!</p>
+						<p><a href="#gtco-events" class="btn btn-primary btn-outline">View Events</a></p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
@@ -133,9 +133,9 @@
 						<span class="icon">
 							<i class="icon-power"></i>
 						</span>
-						<h3>Social Connection</h3>
-						<p>Build connections through social dancing, workshops, and community events that bring people together.</p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<h3>Kaffee & Kuchen Tanz</h3>
+						<p>Our popular afternoon dance socials! Enjoy coffee, cake and dancing every first Sunday of the month from 3-6 PM.</p>
+						<p><a href="#gtco-events" class="btn btn-primary btn-outline">Next Date</a></p>
 					</div>
 				</div>
 			</div>
@@ -153,20 +153,20 @@
 			
 			<div class="row">
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/DSC_0024.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/DSC_0243_2.jpg); ">
+						<a href="https://www.instagram.com/reel/Cy_62ZBo_vX/" class="popup-iframe" target="_blank"><i class="icon-instagram"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/DSC_0536.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/DSC_0100.jpg); ">
+						<a href="https://www.instagram.com/reel/C72PHP2u02f/" class="popup-iframe" target="_blank"><i class="icon-instagram"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/DSC_0214.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
+						<a href="https://www.instagram.com/reel/CsBQ3acOOwh/" class="popup-iframe" target="_blank"><i class="icon-instagram"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
@@ -548,6 +548,21 @@ gtco-heading">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 	
+	<!-- Smooth Scroll -->
+	<script>
+		$(document).ready(function(){
+			// Smooth scrolling for all anchor links
+			$('a[href^="#"]').on('click', function(event) {
+				event.preventDefault();
+				var target = $($(this).attr('href'));
+				if(target.length) {
+					$('html, body').animate({
+						scrollTop: target.offset().top - 50
+					}, 800);
+				}
+			});
+		});
+	</script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
