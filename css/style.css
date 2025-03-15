@@ -1341,6 +1341,9 @@ form label {
     font-weight: normal;
     font-style: normal;
 }
+.icon-whatsapp:before {
+    content: "\ea93";
+}
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #4cae4c !important;
   border-color: #4cae4c !important;
