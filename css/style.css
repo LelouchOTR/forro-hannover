@@ -1419,9 +1419,9 @@ form label {
 }
 
 .btn-white {
-  background: #d9534f;
-  color: #fff;
-  border: 2px solid #d9534f;
+  background: var(--primary-color);
+  color: #000;
+  border: 2px solid var(--primary-color);
 }
 .btn-white:hover, .btn-white:focus, .btn-white:active {
   color: #000;
