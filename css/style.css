@@ -140,19 +140,12 @@ h1, h2, h3, h4, h5, h6, figure {
   .feature-left {
     margin-bottom: 20px;
   }
-  .feature-left:last-of-type {
-    margin-bottom: 0;
-  }
   .feature-left .feature-copy p {
     margin-bottom: 12px;
     line-height: 1.5;
   }
-  /* Add consistent spacing between columns */
-  .row.animate-box > .col-md-6:first-child {
-    margin-bottom: 20px;
-  }
-  /* Remove last feature margin in each column */
-  .col-md-6 .feature-left:last-child .feature-copy {
+  /* Consistent spacing for all feature items */
+  .row.animate-box > .col-md-6 {
     margin-bottom: 0;
   }
   .gtco-heading {
