@@ -141,15 +141,15 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 30px;
   }
   .feature-left .feature-copy {
-    text-align: center;
+    text-align: left;
     padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
   }
   .feature-left .feature-copy p {
     margin-bottom: 20px;
     line-height: 1.7;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
   }
   /* Consistent spacing and centering for feature columns */
   .row.animate-box > .col-md-6 {
@@ -992,7 +992,8 @@ form label {
   margin: 0 0 20px 0;
   list-style: none;
   line-height: 1.4;
-  display: inline-block;
+  display: block;
+  text-align: left;
 }
 #gtco-footer .gtco-footer-links li a {
   color: #000;
@@ -1021,6 +1022,10 @@ form label {
   #gtco-footer .gtco-footer-links li {
     display: block;
     padding: 0;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 #gtco-footer .copyright .block {
