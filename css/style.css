@@ -151,9 +151,11 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-left: auto;
     margin-right: auto;
   }
-  /* Consistent spacing for all feature items */
+  /* Consistent spacing and centering for feature columns */
   .row.animate-box > .col-md-6 {
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
   }
   .gtco-heading {
     margin-bottom: 1em;
