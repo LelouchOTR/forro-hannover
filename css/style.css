@@ -136,12 +136,13 @@ h1, h2, h3, h4, h5, h6, figure {
     min-height: 50px;
     align-items: center;
   }
-  /* Mobile spacing adjustments */
+  /* Mobile spacing adjustments for Why Join community */
   .feature-left .feature-copy {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
   .feature-left .feature-copy p {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    line-height: 1.4;
   }
   .gtco-heading {
     margin-bottom: 1em;
