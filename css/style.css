@@ -772,14 +772,22 @@ form label {
 .feature-left .icon {
   flex-shrink: 0;
   margin-right: 3%;
-  padding: 8px 10px 8px 25px; /* Reduced padding */
+  padding: 8px 10px 8px 25px;
   position: relative;
-  top: 2px;
+  top: 0; /* Adjusted vertical alignment */
+  display: flex;
+  align-items: center; /* Better icon-text alignment */
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
-    margin-right: 3%;
-    padding-left: 15px; /* Increased mobile left padding */
+    margin-right: 0;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+  }
+  .feature-left .feature-copy {
+    padding-left: 15px;
+    margin-top: 0;
   }
 }
 .feature-left .icon i {
@@ -802,9 +810,10 @@ form label {
 }
 #gtco-services .feature-left .feature-copy {
   flex: 1;
-  margin-top: -5px;
+  margin-top: -2px; /* Reduced negative margin */
   padding-left: 15px;
   padding-right: 10px;
+  align-self: center; /* Better vertical alignment */
 }
 #gtco-services .feature-left p {
   margin-bottom: 12px;
