@@ -794,14 +794,29 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
-    width: 70%;
-    float: left;
-    margin-top: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 100%;
+    float: none;
+    margin-top: 25px;
+    padding: 0 15px;
   }
   #gtco-services .feature-left {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+  }
+  /* Tablet view adjustments */
+  @media (min-width: 576px) and (max-width: 992px) {
+    #gtco-services .gtco-tab-content .col-md-6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #gtco-services .gtco-bg {
+      height: 350px;
+      margin-bottom: 40px;
+    }
+    #gtco-services .feature-left .feature-copy {
+      max-width: 80%;
+      padding: 0 30px;
+    }
   }
 }
 .feature-left .feature-copy h3 {
