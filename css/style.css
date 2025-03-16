@@ -845,6 +845,32 @@ form label {
   }
 }
 
+/* Medium screens (769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .gtco-tab-content {
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .gtco-tab-content .gtco-bg {
+    max-width: 60%;
+    height: 400px;
+    margin: 0 auto 40px;
+    transition: max-width 0.3s ease;
+  }
+  
+  .gtco-tab-content .feature-left {
+    padding: 20px;
+    gap: 25px;
+    margin-bottom: 35px;
+  }
+  
+  .gtco-tab-content .feature-left .feature-copy {
+    max-width: 85%;
+  }
+}
+
+/* Mobile + tablet screens (up to 992px) */
 @media (max-width: 992px) {
   .gtco-tab-content {
     flex-direction: column;
@@ -867,18 +893,23 @@ form label {
 @media (max-width: 768px) {
   .gtco-tab-content .feature-left {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
+    align-items: center;
+    padding: 25px 20px;
+    text-align: center;
   }
   
   .gtco-tab-content .feature-left .icon {
-    margin: 0 auto 15px;
+    margin: 0 auto 20px;
     padding: 0;
   }
   
   .gtco-tab-content .feature-left .feature-copy {
-    text-align: center;
     width: 100%;
+    padding: 0 15px;
+  }
+  
+  .gtco-tab-content .gtco-bg {
+    height: 250px;
   }
 }
 .feature-left .feature-copy h3 {
