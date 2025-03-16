@@ -775,12 +775,16 @@ form label {
   margin-top: 15px;
 }
 
-/* Reduced spacing for service tabs */
+/* Adjusted spacing for service tabs */
 #gtco-services .feature-left {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #gtco-services .feature-left .feature-copy {
-  margin-top: 5px;
+  margin-top: 10px;
+}
+#gtco-services .feature-left p {
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
