@@ -122,12 +122,31 @@ h1, h2, h3, h4, h5, h6, figure {
     backdrop-filter: blur(10px);
     padding: 20px !important;
   }
-  /* Adjust tab content spacing */
-  #gtco-services .feature-left {
+  /* Tab content mobile adjustments */
+  #gtco-services .gtco-tab-content .col-md-6 {
+    width: 100%;
+    text-align: center;
+  }
+  #gtco-services .gtco-bg {
     margin-bottom: 30px;
   }
+  #gtco-services .feature-left {
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
   #gtco-services .feature-left .feature-copy {
-    margin-top: 0;
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 25px;
+  }
+  #gtco-services .feature-left .icon {
+    margin-right: 0;
+    padding: 0;
+    position: static;
+  }
+  #gtco-services .gtco-tab-content h2 {
+    text-align: center;
   }
 }
 .gtco-nav .row {
