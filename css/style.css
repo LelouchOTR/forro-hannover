@@ -319,6 +319,11 @@ h1, h2, h3, h4, h5, h6, figure {
   filter: none;
 }
 
+/* Set golden ratio focal point for Instagram images */
+.gtco-video .gtco-bg {
+  background-position: center 33%;
+}
+
 .gtco-video {
   height: 450px;
   overflow: hidden;
