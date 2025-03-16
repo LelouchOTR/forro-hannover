@@ -817,12 +817,10 @@ form label {
 }
 .feature-left .feature-copy {
   float: none;
-  width: auto;
+  width: 100%;
   margin-top: 0;
   display: block;
-  text-align: left;
-  flex: 1;
-  min-width: 0;
+  text-align: center;
 }
 
 /* Optimized service tabs spacing */
