@@ -1581,9 +1581,14 @@ form label {
 }
 
 .event-section-btn .btn-white {
-    background: var(--primary-color);
+    background: var(--primary-color) !important;
     color: #000 !important;
     border-color: var(--primary-color) !important;
+}
+
+.event-section-btn .btn-white:hover {
+    background: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
 }
 
 .event-section-btn .btn-white:hover {
