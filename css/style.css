@@ -825,11 +825,21 @@ form label {
   max-width: 600px;
 }
 @media screen and (max-width: 768px) {
+  .feature-left {
+    display: flex;
+    align-items: flex-start;
+  }
+  .feature-left .icon {
+    position: relative;
+    margin-right: 15px;
+    padding: 0;
+    top: 5px;
+  }
   .feature-left .feature-copy {
-    width: 100%;
+    width: calc(100% - 50px);
     float: none;
-    margin-top: 15px;
-    padding: 0 15px;
+    margin-top: 0;
+    padding: 0;
     text-align: left;
   }
   #gtco-services .feature-left {
@@ -897,21 +907,21 @@ form label {
 
 @media (max-width: 768px) {
   .gtco-tab-content .feature-left {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     padding: 15px;
-    text-align: center;
+    text-align: left;
   }
   
   .gtco-tab-content .feature-left .icon {
-    margin: 0 auto 15px;
+    margin: 0 15px 0 0;
     padding: 0;
     flex-shrink: 0;
   }
   
   .gtco-tab-content .feature-left .feature-copy {
-    width: 100%;
-    padding: 0 15px;
+    width: calc(100% - 50px);
+    padding: 0;
   }
   
   .gtco-tab-content .gtco-bg {
