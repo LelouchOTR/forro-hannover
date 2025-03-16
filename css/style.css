@@ -852,6 +852,7 @@ form label {
     max-width: 90%;
     padding: 0 20px;
     margin-top: 20px;
+    text-align: left; /* Force left alignment */
   }
   #gtco-services .feature-left p {
     margin-bottom: 10px;
