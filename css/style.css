@@ -331,6 +331,13 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
+/* Mobile view padding */
+@media (max-width: 768px) {
+  .gtco-bg {
+    padding-bottom: 20px;
+  }
+}
+
 /* Tablet view specific padding */
 @media (min-width: 768px) and (max-width: 992px) {
   .gtco-bg {
@@ -342,6 +349,13 @@ h1, h2, h3, h4, h5, h6, figure {
 @media (min-width: 992px) and (max-width: 1200px) {
   .gtco-bg {
     padding-bottom: 40px;
+  }
+}
+
+/* Desktop view padding */
+@media (min-width: 1200px) {
+  .gtco-bg {
+    padding-bottom: 50px;
   }
 }
 
