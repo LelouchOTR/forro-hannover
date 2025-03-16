@@ -1383,16 +1383,16 @@ form label {
 }
 
 .social-button-wrapper .btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .social-icon {
     font-size: 1.1rem;
     font-weight: 600;
     color: white;
-    margin-left: 10px;
+    margin-left: 15px;
     letter-spacing: 0.5px;
+    padding: 0 5px;
 }
 
 .social-button-wrapper .btn i {
@@ -1449,22 +1449,13 @@ form label {
     margin: 5px;
     padding: 15px 25px;
 }
-.btn-instagram::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+.btn-instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D) !important;
+    background-size: 200% 200% !important;
+    transition: background-position 0.5s ease !important;
 }
 .btn-instagram:hover {
-    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
-}
-.btn-instagram:hover::after {
-    opacity: 1;
+    background-position: 100% 100% !important;
 }
 
 /* Add icon font support */
