@@ -830,6 +830,7 @@ form label {
   .feature-left {
     display: flex;
     align-items: center;
+    padding-top: -10px; /* Negative top padding */
   }
   .feature-left .icon {
     position: relative;
