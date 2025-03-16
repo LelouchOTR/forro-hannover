@@ -748,7 +748,15 @@ form label {
   margin-right: 5%;
   display: table;
   text-align: center;
-  padding-left: 15px; /* Added left padding for desktop */
+  padding-left: 15px;
+  padding-bottom: 10px; /* Added vertical spacing */
+}
+
+/* Tablet view specific styles */
+@media (min-width: 768px) and (max-width: 992px) {
+  .gtco-bg {
+    padding-bottom: 30px; /* Added bottom padding for tablet view */
+  }
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
