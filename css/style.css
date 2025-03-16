@@ -848,16 +848,14 @@ form label {
 @media screen and (max-width: 768px) {
   .feature-left {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
     margin-bottom: 20px;
     width: 100%;
   }
   .feature-left .icon {
     width: 30px;
     height: 30px;
-    margin: 0 0 15px 0;
+    margin-right: 15px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -865,10 +863,10 @@ form label {
     flex-shrink: 0;
   }
   .feature-left .feature-copy {
-    width: 100%;
+    flex: 1;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: left;
   }
   .feature-left .feature-copy h3 {
     margin: 0 0 5px 0;
