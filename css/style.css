@@ -898,16 +898,17 @@ form label {
 @media (max-width: 768px) {
   .gtco-tab-content .feature-left {
     flex-direction: row;
-    align-items: flex-start;
-    padding: 15px;
+    align-items: center;
+    padding: 10px;
     text-align: left;
-    gap: 15px;
+    gap: 10px;
   }
   
   .gtco-tab-content .feature-left .icon {
-    margin: 0 15px 0 0;
+    margin: 0 10px 0 0;
     padding: 0;
     flex-shrink: 0;
+    align-self: flex-start;
   }
   
   .gtco-tab-content .feature-left .feature-copy {
@@ -1010,15 +1011,18 @@ form label {
   border-radius: 4px;
 }
 .gtco-tabs .gtco-tab-nav li {
-  float: left;
+  float: none;
   margin: 0;
-  padding: 0;
-  width: 25%;
+  padding: 10px;
+  width: auto;
   text-align: center;
   list-style: none;
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 .gtco-tabs .gtco-tab-nav li .icon {
   font-size: 30px;
