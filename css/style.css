@@ -752,15 +752,15 @@ form label {
 }
 .feature-left .icon {
   flex-shrink: 0;
-  margin-right: 3%;  /* Reduced from 6% to bring text closer */
-  padding: 10px 10px 10px 25px; /* Added left padding */
+  margin-right: 2%;  /* Reduced to bring text closer */
+  padding: 10px 10px 10px 30px; /* Increased left padding */
   position: relative;
   top: 1px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
-    margin-right: 5%;
-    padding-left: 10px; /* Adjusted for mobile */
+    margin-right: 3%;
+    padding-left: 15px; /* Increased mobile left padding */
   }
 }
 .feature-left .icon i {
