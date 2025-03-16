@@ -1431,7 +1431,6 @@ form label {
 .btn-whatsapp:hover { 
     background-position: 100% 100%;
     transform: scale(1.02);
-    opacity: 0.9;
 }
 
 /* Telegram button */
@@ -1450,10 +1449,6 @@ form label {
 .btn-instagram:hover { 
     background-position: 100% 100%;
     transform: scale(1.02);
-}
-.btn-whatsapp:hover {
-    background: #128C7E !important;
-    transform: none !important;
 }
 
 /* Style Instagram gradient */
