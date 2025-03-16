@@ -751,13 +751,11 @@ form label {
   margin-bottom: 0;
 }
 .feature-left .icon {
-  float: left;
-  margin-right: 10%;
-  display: table;
-  text-align: center;
-  padding-left: 25px;
+  flex-shrink: 0;
+  margin-right: 0;
+  padding: 15px;
   position: relative;
-  top: -5px;
+  top: -2px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
@@ -777,16 +775,21 @@ form label {
   margin-top: 15px;
 }
 
-/* Adjusted spacing for service tabs */
+/* Consistent vertical rhythm for service tabs */
 #gtco-services .feature-left {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: flex-start;
 }
 #gtco-services .feature-left .feature-copy {
-  margin-top: 10px;
+  flex: 1;
+  margin-top: 0;
+  padding-left: 30px;
 }
 #gtco-services .feature-left p {
-  line-height: 1.5;
-  margin-bottom: 10px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  max-width: 600px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
