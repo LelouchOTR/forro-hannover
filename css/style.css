@@ -1364,7 +1364,9 @@ form label {
 
 .social-button-wrapper {
     position: relative;
-    min-height: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .social-button-wrapper .btn {
@@ -1387,10 +1389,11 @@ form label {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         max-width: 600px;
+        align-items: stretch;
     }
     
     .social-button-wrapper {
-        min-height: 60px;
+        height: 60px;
     }
 }
 
