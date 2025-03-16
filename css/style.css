@@ -774,19 +774,19 @@ form label {
   margin-right: 3%;
   padding: 8px 10px 8px 25px;
   position: relative;
-  top: 0; /* Adjusted vertical alignment */
+  top: 0;
   display: flex;
-  align-items: center; /* Better icon-text alignment */
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
-    margin-right: 0;
-    padding: 10px 15px;
+    margin-right: 15px;
+    padding: 0;
     display: flex;
     align-items: center;
   }
   .feature-left .feature-copy {
-    padding-left: 15px;
+    padding: 0;
     margin-top: 0;
   }
 }
@@ -827,13 +827,14 @@ form label {
 @media screen and (max-width: 768px) {
   .feature-left {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
   .feature-left .icon {
     position: relative;
     margin-right: 15px;
     padding: 0;
-    top: 5px;
+    top: 0;
+    flex-shrink: 0;
   }
   .feature-left .feature-copy {
     width: calc(100% - 50px);
@@ -869,19 +870,22 @@ form label {
   }
   
   .gtco-tab-content .feature-left {
-    padding: 15px;
+    padding: 15px 0;
     gap: 20px;
     margin-bottom: 25px;
+    display: flex;
+    align-items: center;
   }
   
   .gtco-tab-content .feature-left .feature-copy {
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0;
   }
   
   .gtco-tab-content h2 {
     font-size: 28px;
     line-height: 1.4;
+    text-align: left;
   }
 }
 
@@ -908,7 +912,7 @@ form label {
 @media (max-width: 768px) {
   .gtco-tab-content .feature-left {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 15px;
     text-align: left;
   }
