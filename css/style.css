@@ -841,6 +841,7 @@ form label {
   }
   .feature-left .feature-copy {
     width: calc(100% - 50px);
+    max-width: 280px;
     float: none;
     margin-top: 0;
     padding: 0;
