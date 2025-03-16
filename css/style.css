@@ -737,7 +737,7 @@ form label {
 .feature-left {
   float: left;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   position: relative;
 }
 .feature-left:last-child {
@@ -765,6 +765,7 @@ form label {
 .feature-left .feature-copy {
   float: left;
   width: 80%;
+  margin-top: 15px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
