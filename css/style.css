@@ -792,6 +792,12 @@ form label {
   .feature-left .feature-copy {
     width: 70%;
     float: left;
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #gtco-services .feature-left {
+    margin-bottom: 25px;
   }
 }
 .feature-left .feature-copy h3 {
