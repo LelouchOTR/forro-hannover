@@ -1418,12 +1418,13 @@ form label {
 .btn-whatsapp { 
     background: linear-gradient(45deg, #25D366, #128C7E, #075E54) !important;
     background-size: 150% 150% !important;
-    transition: all 0.3s ease !important;
+    transition: background-position 0.5s ease !important;
     color: white !important;
     border: none !important;
 }
 .btn-whatsapp:hover { 
     background-position: 100% 100% !important;
+    opacity: 0.9 !important;
 }
 
 /* Telegram button */
