@@ -783,7 +783,8 @@ form label {
     margin-right: 15px;
     padding: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 3px;
   }
   .feature-left .feature-copy {
     padding: 0;
@@ -833,7 +834,7 @@ form label {
     position: relative;
     margin-right: 15px;
     padding: 0;
-    top: 5px;
+    top: 0;
     flex-shrink: 0;
   }
   .feature-left .feature-copy {
@@ -843,8 +844,13 @@ form label {
     padding: 0;
     text-align: left;
   }
+  .feature-left .feature-copy h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
   .feature-left .feature-copy p {
     margin-bottom: 10px;
+    margin-top: 5px;
   }
   #gtco-services .feature-left {
     margin-bottom: 20px;
@@ -925,7 +931,7 @@ form label {
     padding: 0;
     flex-shrink: 0;
     position: relative;
-    top: 5px;
+    top: 0;
   }
   
   .gtco-tab-content .feature-left .feature-copy {
@@ -933,8 +939,14 @@ form label {
     padding: 0;
   }
   
+  .gtco-tab-content .feature-left .feature-copy h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
   .gtco-tab-content .feature-left .feature-copy p {
     margin-bottom: 10px;
+    margin-top: 5px;
   }
   
   .gtco-tab-content .gtco-bg {
@@ -946,6 +958,7 @@ form label {
   font-size: 18px;
   color: #5d5d5d;
   margin-bottom: 5px;
+  line-height: 1.2;
 }
 
 .gtco-heading {
