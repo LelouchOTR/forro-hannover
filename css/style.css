@@ -771,35 +771,33 @@ form label {
 }
 .feature-left .icon {
   flex-shrink: 0;
-  margin-right: 3%;
-  padding: 8px 10px 8px 25px;
-  position: relative;
-  top: 0;
+  margin-right: 15px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 @media screen and (max-width: 768px) {
   .feature-left {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
   }
   .feature-left .icon {
-    margin: 0 0 15px 0;
+    margin-right: 15px;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
   }
   .feature-left .feature-copy {
-    width: 100%;
+    flex: 1;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: left;
+    align-self: center;
   }
   .feature-left .feature-copy h3 {
     margin-top: 0;
