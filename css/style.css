@@ -1325,9 +1325,9 @@ form label {
 
 
 .btn-success {
-    background: #25D366;
-    border-color: #25D366;
-    color: white !important;
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #000 !important;
 }
 
 #gtco-footer .icon-whatsapp::before {
