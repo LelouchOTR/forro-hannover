@@ -1294,7 +1294,6 @@ form label {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: var(--primary-dark) !important;
   border-color: var(--primary-dark) !important;
-  transform: translateY(-2px);
   color: #fff !important;
 }
 .btn-primary.btn-outline {
