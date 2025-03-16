@@ -1345,12 +1345,18 @@ form label {
 
 /* WhatsApp brand color button */
 .btn-whatsapp {
-    background: #25D366 !important;
+    background: #25D366;
     border: none;
     color: white !important;
     transition: all 0.3s ease;
-    margin: 5px;
+    margin: 10px 5px;
     padding: 15px 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn-whatsapp:hover {
+    background: #128C7E !important;
 }
 .btn-whatsapp::after {
     content: '';
