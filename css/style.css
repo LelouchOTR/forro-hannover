@@ -1314,24 +1314,22 @@ form label {
     color: #fff;
 }
 
-/* Style Instagram gradient */
+.btn-success,
 .btn-instagram {
     background: var(--primary-color) !important;
-    color: #000 !important;
-    border: 2px solid var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #fff !important;
 }
 
+.btn-success:hover,
 .btn-instagram:hover {
     background: var(--primary-dark) !important;
     border-color: var(--primary-dark) !important;
-    transform: translateY(-2px);
 }
 
-
-.btn-success {
-    background: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
-    color: #000 !important;
+/* Remove any transform animations */
+.btn-instagram::after {
+    content: none !important;
 }
 
 #gtco-footer .icon-whatsapp::before {
