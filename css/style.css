@@ -782,31 +782,30 @@ form label {
 @media screen and (max-width: 768px) {
   .feature-left {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
   }
   .feature-left .icon {
-    margin-right: 15px;
+    flex: 0 0 30px;
+    margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+    align-self: center;
   }
   .feature-left .feature-copy {
     flex: 1;
-    padding: 0;
+    min-width: 0;
     margin: 0;
+    padding: 0;
     text-align: left;
     align-self: center;
   }
   .feature-left .feature-copy h3 {
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0 0 5px 0;
     line-height: 1.2;
   }
   .feature-left .feature-copy p {
-    margin-bottom: 10px;
-    margin-top: 0;
+    margin: 0;
     line-height: 1.4;
   }
 }
@@ -818,10 +817,12 @@ form label {
 }
 .feature-left .feature-copy {
   float: none;
-  width: 100%;
+  width: auto;
   margin-top: 0;
   display: block;
-  text-align: center;
+  text-align: left;
+  flex: 1;
+  min-width: 0;
 }
 
 /* Optimized service tabs spacing */
