@@ -1375,9 +1375,10 @@ form label {
     justify-content: center;
     padding: 1.2rem;
     border-radius: 4px;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     text-decoration: none !important;
-    border: 2px solid transparent;
+    border: 2px solid transparent !important;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -1394,7 +1395,6 @@ form label {
 
 .social-button-wrapper .btn:hover {
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    transform: scale(1.02);
 }
 
 .social-icon {
@@ -1441,23 +1441,7 @@ form label {
 .btn-instagram:hover { background-position: 100% 100%; }
 .btn-whatsapp:hover {
     background: #128C7E !important;
-}
-.btn-whatsapp::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-.btn-whatsapp:hover {
-    background: #128C7E !important;
-}
-.btn-whatsapp:hover::after {
-    opacity: 1;
+    transform: none !important;
 }
 
 /* Style Instagram gradient */
