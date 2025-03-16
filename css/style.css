@@ -757,7 +757,7 @@ form label {
   text-align: center;
   padding-left: 25px;
   position: relative;
-  top: 5px;
+  top: -5px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
@@ -785,7 +785,7 @@ form label {
   margin-top: 10px;
 }
 #gtco-services .feature-left p {
-  line-height: 1.3;
+  line-height: 1.5;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
