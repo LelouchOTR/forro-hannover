@@ -338,6 +338,13 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+/* Large tablet/desktop transition specific padding */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .gtco-bg {
+    padding-bottom: 40px;
+  }
+}
+
 .gtco-video {
   height: 450px;
   overflow: hidden;
