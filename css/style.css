@@ -1342,8 +1342,11 @@ form label {
 /* Signal brand color button */
 .btn-signal {
     background: #3A76F0 !important;
-    border: none;
+    border: none !important;
     color: white !important;
+}
+.btn-signal:hover {
+    background: #2554a8 !important;
 }
 
 /* WhatsApp brand color button */
