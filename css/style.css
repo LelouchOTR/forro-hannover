@@ -752,7 +752,7 @@ form label {
 }
 .feature-left .icon {
   flex-shrink: 0;
-  margin-right: 6%;
+  margin-right: 3%;  /* Reduced from 6% to bring text closer */
   padding: 10px;
   position: relative;
   top: 1px;
