@@ -765,7 +765,7 @@ form label {
 .feature-left {
   float: left;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 15px; /* Reduced from 30px to 15px */
   position: relative;
 }
 .feature-left:last-child {
