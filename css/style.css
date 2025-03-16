@@ -752,10 +752,10 @@ form label {
 }
 .feature-left .icon {
   flex-shrink: 0;
-  margin-right: 0;
-  padding: 15px;
+  margin-right: 6%;
+  padding: 10px;
   position: relative;
-  top: -2px;
+  top: 1px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
@@ -784,7 +784,8 @@ form label {
 #gtco-services .feature-left .feature-copy {
   flex: 1;
   margin-top: 0;
-  padding-left: 30px;
+  padding-left: 20px;
+  padding-right: 15px;
 }
 #gtco-services .feature-left p {
   line-height: 1.6;
