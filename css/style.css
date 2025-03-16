@@ -783,21 +783,23 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .feature-left {
-    align-items: flex-start !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .feature-left .icon {
-    margin-right: 15px;
+    margin: 0 0 15px 0;
     padding: 0;
     display: flex;
     align-items: center;
-    align-self: center;
-    height: 24px;
-    margin-top: 4px;
+    justify-content: center;
   }
   .feature-left .feature-copy {
+    width: 100%;
     padding: 0;
-    margin-top: 0;
-    align-self: flex-start;
+    margin: 0;
+    text-align: center;
   }
   .feature-left .feature-copy h3 {
     margin-top: 0;
@@ -817,11 +819,11 @@ form label {
   color: #FFD23F;
 }
 .feature-left .feature-copy {
-  float: left;
-  width: 80%;
+  float: none;
+  width: 100%;
   margin-top: 0;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 /* Optimized service tabs spacing */
