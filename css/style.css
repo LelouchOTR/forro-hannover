@@ -771,10 +771,10 @@ form label {
 }
 .feature-left .icon {
   flex-shrink: 0;
-  margin-right: 2%;  /* Reduced to bring text closer */
-  padding: 10px 10px 10px 30px; /* Increased left padding */
+  margin-right: 3%;
+  padding: 8px 10px 8px 25px; /* Reduced padding */
   position: relative;
-  top: 1px;
+  top: 2px;
 }
 @media screen and (max-width: 768px) {
   .feature-left .icon {
@@ -794,17 +794,21 @@ form label {
   margin-top: 15px;
 }
 
-/* Consistent vertical rhythm for service tabs */
+/* Optimized service tabs spacing */
 #gtco-services .feature-left {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   display: flex;
   align-items: flex-start;
 }
 #gtco-services .feature-left .feature-copy {
   flex: 1;
-  margin-top: 0;
-  padding-left: 20px;
-  padding-right: 15px;
+  margin-top: -5px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+#gtco-services .feature-left p {
+  margin-bottom: 12px;
+  line-height: 1.5;
 }
 #gtco-services .feature-left p {
   line-height: 1.6;
@@ -815,27 +819,34 @@ form label {
   .feature-left .feature-copy {
     width: 100%;
     float: none;
-    margin-top: 25px;
+    margin-top: 15px;
     padding: 0 15px;
+    text-align: left;
   }
   #gtco-services .feature-left {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
-  /* Tablet view adjustments */
-  @media (min-width: 576px) and (max-width: 992px) {
-    #gtco-services .gtco-tab-content .col-md-6 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    #gtco-services .gtco-bg {
-      height: 350px;
-      margin-bottom: 40px;
-    }
-    #gtco-services .feature-left .feature-copy {
-      max-width: 80%;
-      padding: 0 30px;
-    }
+}
+
+/* Improved tablet view adjustments */
+@media (min-width: 577px) and (max-width: 992px) {
+  #gtco-services .gtco-tab-content .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #gtco-services .gtco-bg {
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  #gtco-services .feature-left .feature-copy {
+    max-width: 90%;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  #gtco-services .feature-left p {
+    margin-bottom: 10px;
+    line-height: 1.5;
   }
 }
 .feature-left .feature-copy h3 {
