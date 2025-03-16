@@ -1287,12 +1287,15 @@ form label {
 
 .btn-primary {
   background: var(--primary-color);
-  color: #000;
+  color: #fff; /* Changed to white text */
   border: 2px solid var(--primary-color) !important;
+  transition: all 0.3s ease-in-out !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: var(--primary-dark) !important;
   border-color: var(--primary-dark) !important;
+  transform: translateY(-2px);
+  color: #fff !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1302,6 +1305,7 @@ form label {
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: var(--primary-color);
   color: #fff;
+  transform: translateY(-2px);
 }
 
 .btn-success {
@@ -1572,13 +1576,16 @@ form label {
 
 .event-section-btn .btn-white {
     background: var(--primary-color) !important;
-    color: #000 !important;
+    color: #fff !important; /* Changed to white text */
     border-color: var(--primary-color) !important;
+    transition: all 0.3s ease-in-out !important;
 }
 
 .event-section-btn .btn-white:hover {
     background: var(--primary-dark) !important;
     border-color: var(--primary-dark) !important;
+    transform: translateY(-2px);
+    color: #fff !important;
 }
 
 .event-section-btn .btn-white:hover {
