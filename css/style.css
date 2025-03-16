@@ -1356,10 +1356,10 @@ form label {
 /* WhatsApp brand color button */
 .social-buttons-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
     gap: 1.5rem;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 2rem auto;
 }
 
@@ -1387,7 +1387,7 @@ form label {
 
 @media (max-width: 768px) {
     .social-buttons-grid {
-        grid-template-columns: repeat(2, minmax(180px, 1fr));
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
         gap: 1rem;
         max-width: 100%;
         padding: 0 15px;
