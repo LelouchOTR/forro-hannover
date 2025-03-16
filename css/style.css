@@ -288,6 +288,24 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
+/* Main background blur for hero and counter sections */
+#gtco-header.gtco-cover::before,
+#gtco-counter.gtco-bg::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: inherit;
+  filter: blur(5px);
+  z-index: 0;
+}
+
+/* Base bg styles without blur */
 .gtco-bg {
   width: 100%;
   float: left;
@@ -295,19 +313,10 @@ h1, h2, h3, h4, h5, h6, figure {
   overflow: hidden;
 }
 
-.gtco-bg::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  background-size: 105% 105%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: inherit;
-  filter: blur(5px);
-  z-index: 0;
+/* Remove blur from gallery/video items */
+.gtco-video .gtco-bg::before {
+  content: none;
+  filter: none;
 }
 
 .gtco-video {
@@ -380,19 +389,10 @@ h1, h2, h3, h4, h5, h6, figure {
   overflow: hidden;
 }
 
+/* Remove default blur from all cover elements */
 .gtco-cover::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-image: inherit;
-  filter: blur(5px);
-  z-index: 0;
+  content: none;
+  filter: none;
 }
 .gtco-cover a {
   color: rgba(255, 255, 255, 0.7);
