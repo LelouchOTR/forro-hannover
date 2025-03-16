@@ -1329,14 +1329,28 @@ form label {
     color: #fff;
 }
 
+/* Telegram brand color button */
+.btn-telegram {
+    background: #0088cc !important;
+    border: none;
+    color: white !important;
+}
+
+/* Signal brand color button */
+.btn-signal {
+    background: #3A76F0 !important;
+    border: none;
+    color: white !important;
+}
+
 /* WhatsApp brand color button */
 .btn-whatsapp {
     background: #25D366 !important;
     border: none;
     color: white !important;
     transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+    margin: 5px;
+    padding: 15px 25px;
 }
 .btn-whatsapp::after {
     content: '';
@@ -1362,8 +1376,8 @@ form label {
     border: none;
     color: white !important;
     transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+    margin: 5px;
+    padding: 15px 25px;
 }
 .btn-instagram::after {
     content: '';
@@ -1396,6 +1410,12 @@ form label {
 }
 .icon-whatsapp:before {
     content: "\ea93";
+}
+.icon-paper-plane:before {
+    content: "\e901";
+}
+.icon-lock:before {
+    content: "\e98f";
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #4cae4c !important;
