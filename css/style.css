@@ -1312,14 +1312,26 @@ form label {
 
 /* Style Instagram gradient */
 .btn-instagram {
-    background: #E1306C;
-    color: white !important;
-    border: 2px solid #E1306C !important;
+    background: var(--primary-color) !important;
+    color: #000 !important;
+    border: 2px solid var(--primary-color) !important;
 }
 
 .btn-instagram:hover {
-    background: #C13584 !important;
-    border-color: #C13584 !important;
+    background: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+    transform: translateY(-2px);
+}
+
+.btn-success {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #000 !important;
+}
+
+.btn-success:hover {
+    background: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
 }
 
 .btn-success {
@@ -1329,11 +1341,12 @@ form label {
 }
 
 #gtco-footer .icon-whatsapp::before {
-    content: "\e900";
+    content: "\e972";
 }
 
 #gtco-footer .col-md-4:first-child {
-    padding-left: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 .btn-instagram::after {
     content: '';
@@ -1542,7 +1555,18 @@ form label {
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    max-height: 600px;
+    max-height: 500px;
+}
+
+.filora-plugin-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    pointer-events: none;
 }
 
 .filora-plugin-container::after {
