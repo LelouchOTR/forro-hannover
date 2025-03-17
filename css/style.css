@@ -1426,11 +1426,21 @@ form label {
 
 /* Social Media Button Grid */
 .social-matrix {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  width: fit-content;
-  margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* For desktop sizes */
+@media (min-width: 768px) {
+    .social-matrix {
+        max-width: 800px; /* Prevent overstretching */
+    }
 }
 
 @media (max-width: 768px) {
@@ -1507,10 +1517,11 @@ form label {
 }
 
 .btn-whatsapp {
-    background: linear-gradient(145deg,
-        #128C7E,  /* Dark whatsapp green */
-        #075E54); /* Darker green */
+    background: linear-gradient(145deg, 
+        #128C7E,  /* WhatsApp green */
+        #075E54) !important; /* Darker green */
     color: white !important;
+    border: none !important;
 }
 
 .btn-signal {
