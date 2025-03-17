@@ -1424,16 +1424,51 @@ form label {
     padding-right: 30px;
 }
 
+/* Home Page Button Adjustments */
+.btn-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
 /* Social Media Buttons */
 .btn-social {
+  width: auto;
+  min-width: 220px;
+  white-space: nowrap;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  text-align: left;
+  border: 2px solid transparent !important;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .btn-social {
     width: 100%;
-    margin-bottom: 15px;
-    padding: 15px 20px;
-    text-align: left;
-    border: 2px solid transparent !important;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    overflow: hidden;
+    min-width: auto;
+    white-space: normal;
+    line-height: 1.4;
+    padding: 15px 20px !important;
+  }
+}
+
+/* Contact Page Text Overflow Fix */
+@media (max-width: 992px) and (min-width: 768px) {
+  .social-matrix .btn-social {
+    min-width: 100%;
+    white-space: normal;
+    word-break: break-word;
+    padding: 12px 15px !important;
+  }
+  
+  .social-matrix .col-md-3 {
+    width: 100%;
+    padding: 0 0 15px 0 !important;
+  }
 }
 
 .btn-social i {
