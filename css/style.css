@@ -1271,20 +1271,14 @@ form label {
 }
 
 .btn-success {
-    background: #25D366;
-    border-color: #25D366;
-    color: #fff;
-}
-
-.btn-success,
-.btn-instagram {
     background: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
     color: #fff !important;
 }
 
 .btn-success:hover,
-.btn-instagram:hover {
+.btn-success:focus,
+.btn-success:active {
     background: var(--primary-dark) !important;
     border-color: var(--primary-dark) !important;
 }
@@ -1330,19 +1324,6 @@ form label {
     url('../fonts/icomoon/icomoon.svg?8muvfu#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
-}
-.btn-success:hover, .btn-success:focus, .btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
-}
-.btn-success.btn-outline {
-  background: transparent;
-  color: #5cb85c;
-  border: 2px solid #5cb85c;
-}
-.btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-  background: #5cb85c;
-  color: #fff;
 }
 
 .btn-info {
