@@ -1378,7 +1378,7 @@ form label {
 
 /* Target overlay only within tab content */
 .gtco-tab-content .gtco-bg .overlay {
-    background: rgba(0, 0, 0, 0.2); /* Lighter overlay for tab images */
+    background: rgba(0, 0, 0, 0); /* Lighter overlay for tab images */
 }
 
 /* Instagram button styles */
