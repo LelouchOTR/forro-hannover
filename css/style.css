@@ -1400,6 +1400,68 @@ form label {
     padding-right: 30px;
 }
 
+/* Social Media Buttons */
+.btn-social {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    text-align: left;
+    border: 2px solid transparent !important;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-social i {
+    margin-right: 10px;
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+
+.btn-social:hover {
+    transform: translateY(-2px);
+    color: white !important;
+}
+
+/* Platform-specific colors */
+.btn-instagram {
+    background: linear-gradient(45deg, #405DE6, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FFDC80);
+    color: white !important;
+}
+
+.btn-whatsapp {
+    background: #25D366;
+    color: white !important;
+}
+
+.btn-signal {
+    background: #3A76F0;
+    color: white !important;
+}
+
+.btn-telegram {
+    background: #0088CC;
+    color: white !important;
+}
+
+.social-matrix {
+    margin: 30px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .social-matrix .col-md-3 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-matrix .col-md-3 {
+        width: 100%;
+    }
+}
+
 /* Add icon font support */
 @font-face {
     font-family: 'icomoon';
