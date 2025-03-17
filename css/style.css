@@ -1283,9 +1283,19 @@ form label {
     border-color: var(--primary-dark) !important;
 }
 
-/* Remove any transform animations */
-.btn-instagram::after {
-    content: none !important;
+/* Instagram button styles */
+.btn-instagram {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus,
+.btn-instagram:active {
+    background: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+    color: #fff !important;
 }
 
 #gtco-footer .icon-whatsapp::before {
@@ -1295,23 +1305,6 @@ form label {
 #gtco-footer .col-md-4:first-child {
     padding-left: 50px;
     padding-right: 30px;
-}
-.btn-instagram::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-.btn-instagram:hover {
-    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
-}
-.btn-instagram:hover::after {
-    opacity: 1;
 }
 
 /* Add icon font support */
