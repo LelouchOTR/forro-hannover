@@ -973,6 +973,10 @@ form label {
   text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
+  #gtco-footer .col-sm-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   #gtco-footer .copyright .pull-left,
   #gtco-footer .copyright .pull-right {
     float: none !important;
