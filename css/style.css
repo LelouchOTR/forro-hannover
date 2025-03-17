@@ -1424,36 +1424,42 @@ form label {
     padding-right: 30px;
 }
 
-/* Social Media Button Grid */
-.social-matrix {
+/* Contact page specific grid */
+#gtco-contact .social-matrix {
     display: grid;
-    gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    width: fit-content;
-    margin: 0 auto;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px 0;
 }
 
-/* For desktop sizes */
-@media (min-width: 768px) {
-    .social-matrix {
-        max-width: 800px; /* Prevent overstretching */
+/* New specific class for connect sections */
+.social-matrix-connect {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    #gtco-contact .social-matrix,
+    .social-matrix-connect {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .social-matrix-connect .btn-social {
+        width: 100%;
+        max-width: 300px;
     }
 }
 
-@media (max-width: 768px) {
-  .social-matrix {
-    grid-template-columns: 1fr;
-    width: 100%;
-    padding: 0 15px;
-  }
-  
-  .social-matrix .btn-social {
-    width: 100%;
-    min-width: auto;
-  }
+/* Fix bottom padding in subscribe section */
+#gtco-subscribe {
+    padding-bottom: 4em !important;
 }
 
 /* Social Media Buttons */
