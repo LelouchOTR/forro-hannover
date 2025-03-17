@@ -974,8 +974,13 @@ form label {
 }
 @media screen and (max-width: 768px) {
   #gtco-footer .col-sm-6 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  /* Remove the special first-child padding */
+  #gtco-footer .col-md-4:first-child {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
   #gtco-footer .copyright .pull-left,
   #gtco-footer .copyright .pull-right {
