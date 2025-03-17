@@ -1444,16 +1444,29 @@ form label {
 
 /* Mobile optimization */
 @media (max-width: 768px) {
-    #gtco-contact .social-matrix,
+    /* Home page social buttons */
     .social-matrix-connect {
+        gap: 15px;
+        margin: 1.5rem auto;
+    }
+    
+    .social-matrix-connect .btn-social {
+        margin-bottom: 10px;
+        padding: 12px 15px !important;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Contact page social buttons */
+    #gtco-contact .social-matrix,
+    .social-matrix {
         grid-template-columns: 1fr;
         width: 100%;
         padding: 0 15px;
     }
     
-    .social-matrix-connect .btn-social {
-        width: 100%;
-        max-width: 300px;
+    .social-matrix .btn-social {
+        margin-bottom: 15px;
     }
 }
 
