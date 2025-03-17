@@ -1547,12 +1547,28 @@ form label {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   margin: 30px 0;
+}
+
+.social-matrix .btn-social {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
   .social-matrix {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  
+  .social-matrix .btn-social {
+    padding: 20px;
   }
 }
 
@@ -1567,15 +1583,6 @@ form label {
 .btn-social:active {
   box-shadow: none !important;
   outline: none !important;
-}
-
-/* Added proportional button heights */
-.btn-social {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
 }
 
 /* Add icon font support */
