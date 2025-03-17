@@ -1425,23 +1425,38 @@ form label {
 
 /* Platform-specific colors */
 .btn-instagram {
-    background: linear-gradient(45deg, #405DE6, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FFDC80);
+    background: linear-gradient(45deg, 
+        #833ab4,  /* Dark purple */
+        #c13584,  /* Deep pink */
+        #e1306c,  /* Dark coral */
+        #fd1d1d); /* Dark red */
     color: white !important;
 }
 
 .btn-whatsapp {
-    background: #25D366;
+    background: linear-gradient(145deg,
+        #128C7E,  /* Dark whatsapp green */
+        #075E54); /* Darker green */
     color: white !important;
 }
 
 .btn-signal {
-    background: #3A76F0;
+    background: linear-gradient(145deg,
+        #2B6BDA,  /* Signal blue */
+        #1A4D8F); /* Darker blue */
     color: white !important;
 }
 
 .btn-telegram {
-    background: #0088CC;
+    background: linear-gradient(145deg,
+        #0088cc,  /* Telegram blue */
+        #006699); /* Darker blue */
     color: white !important;
+}
+
+.btn-social:hover {
+    filter: brightness(110%);
+    transform: translateY(-2px) scale(1.02);
 }
 
 .social-matrix {
