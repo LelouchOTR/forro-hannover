@@ -1378,17 +1378,36 @@ form label {
 
 /* Instagram button styles */
 .btn-instagram {
-    background: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
-    color: #fff !important;
+    background: linear-gradient(45deg, 
+        #405DE6, 
+        #833AB4, 
+        #C13584, 
+        #E1306C, 
+        #FD1D1D, 
+        #F56040, 
+        #FFDC80) !important;
+    color: white !important;
+    border-color: transparent !important;
+}
+
+.btn-social.btn-instagram {
+    background: linear-gradient(45deg, 
+        #405DE6, 
+        #833AB4, 
+        #C13584, 
+        #E1306C, 
+        #FD1D1D, 
+        #F56040, 
+        #FFDC80) !important;
+    color: white !important;
+    border: none !important;
 }
 
 .btn-instagram:hover,
 .btn-instagram:focus,
 .btn-instagram:active {
-    background: var(--primary-dark) !important;
-    border-color: var(--primary-dark) !important;
-    color: #fff !important;
+    filter: brightness(110%) !important;
+    transform: translateY(-2px) scale(1.02) !important;
 }
 
 #gtco-footer .icon-whatsapp::before {
