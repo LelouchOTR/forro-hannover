@@ -1324,8 +1324,8 @@ form label {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1338,7 +1338,7 @@ form label {
 }
 
 .gtco-video .instagram-btn i {
-    font-size: 1.5em;
+    font-size: 2.2em;
     line-height: 1;
     transition: transform 0.3s ease;
 }
@@ -1346,7 +1346,18 @@ form label {
 /* Hover Effects */
 .gtco-video:hover .instagram-btn {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.15);
+    transform: translate(-50%, -50%) scale(1.25);
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .gtco-video .instagram-btn {
+        width: 60px;
+        height: 60px;
+    }
+    .gtco-video .instagram-btn i {
+        font-size: 2em;
+    }
 }
 
 .gtco-video:hover .instagram-btn i {
