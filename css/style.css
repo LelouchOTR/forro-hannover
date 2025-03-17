@@ -1575,8 +1575,8 @@ form label {
     background: #fff;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1), 0 -10px 30px rgba(0,0,0,0.05);
-    max-height: 800px;
+    /*box-shadow: 0 10px 30px rgba(0,0,0,0.1), 0 -10px 30px rgba(0,0,0,0.05);*/
+    max-height: 1500px;
 }
 
 .filora-plugin-container::after {
