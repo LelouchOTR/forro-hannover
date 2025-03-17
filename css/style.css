@@ -1565,10 +1565,14 @@ form label {
   .social-matrix {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    padding: 0 15px; /* Add left/right padding */
+    margin: 20px 0; /* Maintain vertical spacing */
   }
   
   .social-matrix .btn-social {
-    padding: 20px;
+    padding: 15px;
+    width: calc(100% - 10px); /* Account for any potential margin */
+    margin: 0 5px; /* Small horizontal margin */
   }
 }
 
