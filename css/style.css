@@ -1629,6 +1629,26 @@ form label {
   }
 }
 
+/* Tablet view adjustments */
+@media (min-width: 769px) and (max-width: 991px) {
+  .social-matrix-connect {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  
+  .social-matrix-connect .btn-social {
+    flex: 1 1 45%;
+    min-width: auto;
+    margin: 0 2.5% 15px;
+    padding: 15px 10px !important;
+    text-align: center;
+  }
+  
+  .social-matrix-connect .btn-social i {
+    margin: 0 8px 0 -4px;
+  }
+}
+
 /* Remove any borders/outlines */
 .btn-social {
   border: none !important;
