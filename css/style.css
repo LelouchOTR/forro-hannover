@@ -1424,18 +1424,32 @@ form label {
     padding-right: 30px;
 }
 
-/* Home Page Button Adjustments */
-.btn-container {
-  display: inline-flex;
-  flex-wrap: wrap;
+/* Social Media Button Grid */
+.social-matrix {
+  display: grid;
   gap: 20px;
-  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .social-matrix {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0 15px;
+  }
+  
+  .social-matrix .btn-social {
+    width: 100%;
+    min-width: auto;
+  }
 }
 
 /* Social Media Buttons */
 .btn-social {
-  width: auto;
-  min-width: 220px;
+  min-width: 240px;
+  justify-content: center;
   white-space: nowrap;
   margin-bottom: 15px;
   padding: 15px 20px;
