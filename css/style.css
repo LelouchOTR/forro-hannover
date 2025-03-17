@@ -1317,6 +1317,50 @@ form label {
     border-color: var(--primary-dark) !important;
 }
 
+/* Instagram Button Styles */
+.gtco-video .instagram-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    background: var(--primary-color);
+    color: white !important;
+    border-radius: 50px;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+
+.gtco-video .instagram-btn i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+.gtco-video .instagram-btn span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gtco-video .instagram-btn:hover {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .gtco-video .instagram-btn {
+        padding: 8px 15px;
+    }
+    .gtco-video .instagram-btn span {
+        font-size: 14px;
+    }
+}
+
 /* Instagram button styles */
 .btn-instagram {
     background: var(--primary-color) !important;
