@@ -518,7 +518,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-contact-info {
-  margin-bottom: 30px;
+  margin: 3rem 0 30px;
   float: left;
   width: 100%;
   position: relative;
