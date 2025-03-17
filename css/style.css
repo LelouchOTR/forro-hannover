@@ -1376,6 +1376,11 @@ form label {
     transition: background-color 0.3s ease;
 }
 
+/* Target overlay only within tab content */
+.gtco-tab-content .gtco-bg .overlay {
+    background: rgba(0, 0, 0, 0.2); /* Lighter overlay for tab images */
+}
+
 /* Instagram button styles */
 .btn-instagram {
     background: linear-gradient(45deg, 
