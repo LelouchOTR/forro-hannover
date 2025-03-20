@@ -448,6 +448,20 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-counter {
   height: 500px;
 }
+
+#gtco-counter.gtco-bg {
+    border-radius: 0 !important;
+    overflow: hidden;
+}
+
+#gtco-counter.gtco-cover::before,
+#gtco-counter.gtco-bg::before {
+    border-radius: 0;
+}
+
+#gtco-counter .overlay {
+    border-radius: 0;
+}
 #gtco-counter .display-t,
 #gtco-counter .display-tc {
   height: 500px;
