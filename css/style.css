@@ -1560,8 +1560,6 @@ form label {
     0% { transform: translate(0, -50%); }
     100% { transform: translate(5px, -50%); }
 }
-    color: white !important;
-}
 
 /* Platform-specific colors */
 .btn-instagram {
