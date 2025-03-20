@@ -410,14 +410,17 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-cover.gtco-cover-sm::before {
     content: '';
     position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
+    top: -20px;  /* Increased blur buffer */
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
     background-image: inherit;
-    background-position: inherit;
-    filter: blur(5px);
+    background-position: center; /* Center the background */
+    background-size: cover;      /* Ensure full coverage without repeating */
+    background-repeat: no-repeat; /* Prevent tiling */
+    filter: blur(8px);           /* Slightly stronger blur */
     z-index: 0;
+    backface-visibility: hidden; /* Prevent edge artifacts */
 }
 
 /* Ensure text stays sharp */
