@@ -1516,8 +1516,14 @@ form label {
 }
 
 .btn-social i {
-  vertical-align: middle; /* Ensure icon alignment */
-  margin-bottom: 1px; /* Fine-tune icon position */
+  margin: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Compensate for icon font's internal padding */
+  margin-top: -1px; 
+  margin-right: 10px;
 }
 
 @media (max-width: 768px) {
