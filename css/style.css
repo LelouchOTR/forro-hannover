@@ -1502,14 +1502,22 @@ form label {
 .btn-social {
   min-width: 240px;
   justify-content: center;
+  align-items: center; /* Added vertical alignment */
   white-space: nowrap;
   margin-bottom: 15px;
   padding: 15px 20px;
-  text-align: left;
+  text-align: center;
   border: 2px solid transparent !important;
   transition: all 0.3s ease-in-out;
   position: relative;
   overflow: hidden;
+  display: inline-flex !important; /* Force consistent flex display */
+  line-height: normal; /* Override Bootstrap default */
+}
+
+.btn-social i {
+  vertical-align: middle; /* Ensure icon alignment */
+  margin-bottom: 1px; /* Fine-tune icon position */
 }
 
 @media (max-width: 768px) {
