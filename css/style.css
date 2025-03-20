@@ -798,11 +798,14 @@ form label {
   zoom: 1;
 }
 #gtco-testimonial .testimony-slide figure img {
-  width: 90px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  width: 120px;  /* Slightly wider for oval shape */
+  height: 90px;  /* Fixed height */
+  -webkit-border-radius: 20% 35%;
+  -moz-border-radius: 20% 35%;
+  -ms-border-radius: 20% 35%;
+  border-radius: 20% 35%;  /* Creates consistent oval shape */
+  object-fit: cover;
+  object-position: center top; /* Ensures faces are properly framed */
 }
 #gtco-testimonial .testimony-slide blockquote {
   border: none;
