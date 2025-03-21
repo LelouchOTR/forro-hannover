@@ -1529,6 +1529,11 @@ form label {
   margin-right: 10px;
 }
 
+.gtco-tab-content .small em {
+    display: inline-block;
+    margin-bottom: 20px; 
+}
+
 @media (max-width: 768px) {
   .btn-social {
     width: 100%;
