@@ -1610,9 +1610,20 @@ form label {
     color: white !important;
 }
 
+.btn-facebook {
+    background: linear-gradient(145deg,
+        #1877F2,  /* Facebook blue */
+        #0A58CA) !important; /* Darker blue */
+    color: white !important;
+}
+
 .btn-social:hover {
     filter: brightness(110%);
     transform: translateY(-2px) scale(1.02);
+}
+
+.btn-social.btn-facebook:hover {
+    filter: brightness(110%) !important;
 }
 
 .btn-social.btn-equal-width {
